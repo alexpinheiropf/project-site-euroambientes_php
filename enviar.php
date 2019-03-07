@@ -14,7 +14,7 @@ if (! empty ( $_POST )) {
 	$mensagem = "Email: " . $_POST ['email'] . "\n";
 	$mensagem = "Mensagem: " . $_POST ['msg'] . "\n";
 	
-	if (mail ( "alexpinheiropf@hotmail.com", "Formulário de contato - euroambientes.com.br", $mensagem, $cab )) {
+	if (mail ( "contato@euroambientes.com.br", "Formulário de contato - euroambientes.com.br", $mensagem, $cab )) {
 		echo "<script type=\"text/javascript\">alert(\"Sua mensagem foi enviada com sucesso.\"); history.go(-1); </script>\n";
 	} else
 		echo "<script type=\"text/javascript\">alert(\"Ocorreu um erro ao tentar enviar esta mensagem.\"); history.go(-1); </script>\n";

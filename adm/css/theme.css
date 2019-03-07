@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.espaco{
+	margin-bottom:15px;
+}
+
+.service_4_video {
+	overflow: hidden;
+	width: 330px;
+	height: 200px;
+	margin-top: 15px;
+}
+
+.service_4_video iframe {
+	width: 340px;
+	height: 100%;
+	position: relative;
+}
+
+.service_4_video img {
+	width: 190px;
+	height: auto;
+	position: relative;
+}
