@@ -24,7 +24,7 @@ $v_img_pg = mysqli_num_rows ( $img_pg );
 		<?php $foto = $v_img_pg['imagem']?>
 		<div class="showcase-content">
 			<img src="<?php echo "../img/$foto"; ?>" alt=""
-			width="900" height="400" />
+			width="900" height="auto" />
 		</div>
 	</div>
 	<?php }?>

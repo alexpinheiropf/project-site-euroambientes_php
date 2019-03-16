@@ -8,9 +8,6 @@ $resultado2 = mysqli_query ( $conectar, "SELECT * FROM desc_pg where id = 27");
 $linha2= mysqli_fetch_assoc ( $resultado2 );
 
 ?>
-
-
-
 <div class="full-width">
   <div id="showcase">
   <!-- Each child div in #showcase represents a slide -->

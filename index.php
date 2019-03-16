@@ -1,5 +1,5 @@
 <?php
-define ( 'pg', 'http://localhost/euroambientes.com.br' );
+define ( 'pg', 'http://localhost/www.euroambientes.com.br' );
 include_once ("adm/conexao.php");
 
 ?>

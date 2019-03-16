@@ -1,3 +1,3 @@
 <?php
-	$conectar = mysqli_connect ( "localhost", "root", "root", "bd_euro" ) or die ( "Base não encontrada" );
+	$conectar = mysqli_connect ( "localhost", "admin", "admin4321", "bd_euro" ) or die ( "Base não encontrada" );
 ?>
